@@ -11,7 +11,11 @@ environment:
 
 dependencies:
   fresh: ^0.4.0
-  graphql: ^5.0.0-nullsafety.3
+  graphql:
+    git:
+      url: git@github.com:toonvanstrijp/graphql-flutter.git
+      path: packages/graphql
+      ref: main
   http: ^0.13.1
   pedantic: ^1.11.0
 
